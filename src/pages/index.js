@@ -90,7 +90,7 @@ const IndexPage = () => {
 
   const units = ['s', 'm', 'h', 'd'];
   return (
-      <main className="bg-gradient-to-r from-indigo-400 to-rose-300 p-24">
+      <main className="bg-gradient-to-r from-indigo-400 to-rose-300 p-24 text-center">
         <div className="inline-block py-12 px-6 bg-pink-200 rounded-xl shadow-lg items-center border-pink-300 border-4">
           <label className="block text-center bg-green-100 shadow-inner shadow-gray-400 py-6 mx-4 text-4xl">
             <span>{moment.duration(state.time, 'seconds').format('D[d] HH:mm:ss')}</span>
