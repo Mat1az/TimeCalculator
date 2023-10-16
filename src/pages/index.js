@@ -90,12 +90,12 @@ const IndexPage = () => {
 
   const units = ['s', 'm', 'h', 'd'];
   return (
-      <main className="bg-gradient-to-r from-indigo-400 to-rose-300 p-24 text-center">
-        <div className="inline-block py-12 px-6 bg-pink-200 rounded-xl shadow-lg items-center border-pink-300 border-4">
-          <label className="block text-center bg-green-100 shadow-inner shadow-gray-400 py-6 mx-4 text-4xl">
+      <main className="md:p-24 text-center bg-gradient-to-r from-indigo-400 to-rose-300">
+        <div className="md:inline-block py-12 px-6 bg-pink-200 rounded-xl shadow-lg border-pink-300 border-4">
+          <label className="block py-6 mx-4 text-4xl text-center bg-green-100 shadow-inner shadow-gray-400">
             <span>{moment.duration(state.time, 'seconds').format('D[d] HH:mm:ss')}</span>
           </label>
-          <div className='mx-10 my-16'>
+          <div className='md:mx-10 my-16'>
             {units.map((unit) => (
                 <div key={unit} className="mt-3 grid grid-flow-col">
                   {[1, 5, 10, 20, 30].map((value) => (
