@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
-  Oscura
+  TimeCalculator
   <br>
 </h1>
 
-<h4 align="center">A Minimal Music Player</h4>
+<h4 align="center">A Simple Time Calculator</h4>
